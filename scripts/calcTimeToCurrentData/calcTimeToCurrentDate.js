@@ -8,7 +8,7 @@
 
     let diffTime = Math.abs(date2 - date1);
       
-    console.log(convertToDays(diffTime))
+   
    // console.log(diffTime)
     const days = Math.floor(diffTime/(86400 * 1000)); 
 
@@ -36,18 +36,7 @@ setInterval(()=>{
 },1000)
 
 
-function convertToDays(milliSeconds){
-    
-    let days = Math.floor(milliSeconds/(86400 * 1000));
-    milliSeconds -= days*(86400*1000);
-    let hours = Math.floor(milliSeconds/(60 * 60 * 1000 ));
-    milliSeconds -= hours * (60 * 60 * 1000);
-    let minutes = Math.floor(milliSeconds/(60 * 1000));
-    return {
-      days,hours,minutes
-    } 
-      
-}
+
 
 
 document.querySelector(".text_outer").style.animationPlayState = "paused";

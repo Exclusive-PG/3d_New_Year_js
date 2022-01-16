@@ -226,7 +226,13 @@
                     if(item.position.y<=-100) item.position.y = 100
                 })
 
-                  isRotateScene && RotateSceneMode(camera,snowmanInSphere,150);
+                  if(isRotateScene){
+                    
+                    RotateSceneMode(camera,snowmanInSphere,150);
+                    controls.enabled = false;
+                  } else{
+                    controls.enabled = true;
+                  }
                 
                  rotateObject(pointLight,100,snowmanInSphere)
                 //rotateObject(snowmanInSphere,10)
