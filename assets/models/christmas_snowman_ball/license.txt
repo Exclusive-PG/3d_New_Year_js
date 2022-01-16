@@ -1,0 +1,11 @@
+Model Information:
+* title:	Christmas Snowman Ball
+* source:	https://sketchfab.com/3d-models/christmas-snowman-ball-b56099d70cad43248453ebc3615b0d40
+* author:	kons127 (https://sketchfab.com/kons127)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Christmas Snowman Ball" (https://sketchfab.com/3d-models/christmas-snowman-ball-b56099d70cad43248453ebc3615b0d40) by kons127 (https://sketchfab.com/kons127) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

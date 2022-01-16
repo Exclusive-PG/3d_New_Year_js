@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<link rel="stylesheet" href="./assets/style/style.css">
+		<link rel="stylesheet" href="./assets/fonts/cssfonts/all.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+	
+	</head>
+	<body>
+		
+		<main class="main_container">
+			<section class="out_date_render wrapper">
+				<div class="text_outer"></div>
+				<div class="get_review_scene"><i class="fas fa-eye"></i></div>
+				
+			</section>
+			<div class="settings">
+				<div class="off-review">
+					<span class="off_review_event"><i class="fas fa-eye-slash"></i> Stop Review</span>
+					<span class="rotation_scene"><i class="fas fa-sync-alt"></i> Auto Rotate</span>
+				</div>
+			</div>
+		</main>
+
+
+
+		<script src="./scripts/three.min.js"></script>
+		<script type="module" src="./scripts/index.js"></script>
+		<script src="./scripts/calcTimeToCurrentData/calcTimeToCurrentDate.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script src="./three.min.js"></script>
+		<script src="./GLTFLoader.js"></script>
+		<script>
+            let target = 2 , down = false ,girl
+			x = 0
+
+			const scene = new THREE.Scene();
+			const camera = new THREE.PerspectiveCamera( 105, window.innerWidth / window.innerHeight, 0.1, 1000 );
+           
+			const renderer = new THREE.WebGLRenderer({antialias:true,alpha:true});
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+
+			let loader = new THREE.GLTFLoader();
+			loader.load("./scene.gltf",(gltf)=>{
+				
+				scene.add(gltf.scene);
+				 girl = gltf.scene.children[0]
+			
+				//gltf.position.setX(1)
+			})
+			const geometry = new THREE.TorusGeometry();
+			const material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
+			const cube = new THREE.Mesh( geometry, material );
+			//scene.add( cube );
+
+			camera.position.z = 5;
+		
+			function animate() {
+				requestAnimationFrame( animate );
+
+			
+				girl.rotation.z += 0.01;
+				x +=0.01
+				girl.position.set(x,0,0)
+				renderer.render( scene, camera );
+			};
+
+			animate();
+
+            // function CubeUpDown (cube){
+            //     console.log(cube.position.y)
+            //     if(Math.round(cube.position.y) >= 2){
+            //         down = true
+            //     }else if(cube.position.y < 0){
+            //         cube.position.y += 0.01
+            //     }
+            // }
+			function cubeMoveRight (cube){
+				cube.position.x +=0.01;
+							}
+		</script>
+	</body>
+</html> -->
