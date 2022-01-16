@@ -176,3 +176,15 @@ padding: 40px 0;
 .autoRotateSceneActive{
     color: #00FF00;
 }
+.rotateSymbolActive{
+    animation: animRotate 2s linear infinite;
+}
+
+@keyframes animRotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

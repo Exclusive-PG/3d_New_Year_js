@@ -25,7 +25,9 @@
                 document.querySelector(".rotation_scene").addEventListener("click",()=>{
                   isRotateScene = !isRotateScene              
                   document.querySelector(".rotation_scene").classList.toggle("autoRotateSceneActive");
+                  document.querySelector(".fa-sync-alt").classList.toggle("rotateSymbolActive");
                 })
+                
             })
            // controls.enabled = false;
             //const gridHelper = new THREE.GridHelper(200,50)
@@ -61,9 +63,9 @@
          
               scene.add(pointLight);
              
-              const sphereSize = 1;
-              const pointLightHelper = new THREE.PointLightHelper( pointLight, sphereSize );
-              scene.add( pointLightHelper );
+            //  const sphereSize = 1;
+             // const pointLightHelper = new THREE.PointLightHelper( pointLight, sphereSize );
+             // scene.add( pointLightHelper );
 
 
              // const directionalLight = new THREE.DirectionalLight( 0xffffff, 1.5 );

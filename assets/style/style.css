@@ -180,4 +180,31 @@ body {
 .autoRotateSceneActive {
   color: #00FF00;
 }
+
+.rotateSymbolActive {
+  -webkit-animation: animRotate 2s linear infinite;
+          animation: animRotate 2s linear infinite;
+}
+
+@-webkit-keyframes animRotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animRotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 /*# sourceMappingURL=style.css.map */
